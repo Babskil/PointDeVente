@@ -1,0 +1,26 @@
+<h2>Point de Vente</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nom du point de vente</th>
+            <th>Numéro du point de Vente</th>
+            <th>Numéro d'opération</th>
+            <th>Télephone</th>
+            <th>Localisation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngfor = "let vente of ventes"></tr>
+        <td>{{vente.Nom}}</td>
+        <td>{{vente.NumPtVente}}</td>
+        <td>{{vente.NumOp}}</td>
+        <td>{{vente.Télephone}}</td>
+        <td>{{vente.Localisation}}</td>
+        
+
+
+
+
+    </tbody>
+
+</table>
